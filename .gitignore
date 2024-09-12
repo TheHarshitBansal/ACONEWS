@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+dist/
+
+# IDE/editor configuration files
+.vscode/
+.idea/
+.DS_Store
+
+# Auto-generated files
+node_modules/
+yarn.lock
+npm-debug.log
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.sync
+*.log
+
+# Sensitive data
+secrets.json
+config.env
