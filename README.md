@@ -22,6 +22,10 @@
 - Using Web resources like Stack Overflow
 - Using Github Copilot & ChatGPT
 
+## Limitations (Due to FREE API LIMIT)
+
+- Pagination not working
+- Can't see detailed news
 
 
 
