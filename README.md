@@ -16,6 +16,13 @@
 - Handling CORS restrictions
 - Functioning of search bar
 
+### How did I overcame them
+
+- Reading Documentations
+- Using Web resources like Stack Overflow
+- Using Github Copilot & ChatGPT
+
+
 
 
 
