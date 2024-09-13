@@ -9,7 +9,7 @@ function App() {
   const [onSearch, setOnSearch] = useState('');
 
   return (
-    <div className="flex flex-col bg-gray-900 text-gray-100">
+    <div className="flex flex-col bg-gray-200 text-gray-100">
       <Header setIsDrawerOpen={setIsDrawerOpen} onSearch={setOnSearch} Category={setSelectedCategory}/>
       <MobileDrawer isOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} onCategorySelect={setSelectedCategory}/>
       <div className="flex-1">

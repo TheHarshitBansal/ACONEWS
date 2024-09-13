@@ -17,7 +17,7 @@ function Pagination({ currentPage, setPage, totalPages }) {
 
       <button
         onClick={handlePrevPage}
-        className={`p-2 rounded-full bg-gray-700 hover:bg-yellow-500 transition ${
+        className={`p-2 rounded-full bg-gray-700 hover:bg-rose-500 transition ${
           isFirstPage ? 'cursor-not-allowed opacity-50' : ''
         }`}
         disabled={isFirstPage}
@@ -25,13 +25,13 @@ function Pagination({ currentPage, setPage, totalPages }) {
         <ChevronLeftIcon className="h-5 w-5 text-gray-100" />
       </button>
 
-      <span className="text-gray-100 font-medium">
+      <span className="text-gray-900 font-medium">
         Page {currentPage}
       </span>
 
       <button
         onClick={handleNextPage}
-        className={`p-2 rounded-full bg-gray-700 hover:bg-yellow-500 transition ${
+        className={`p-2 rounded-full bg-gray-700 hover:bg-rose-500 transition ${
           isLastPage ? 'cursor-not-allowed opacity-50' : ''
         }`}
         disabled={isLastPage}

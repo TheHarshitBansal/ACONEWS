@@ -8,7 +8,7 @@ function NewsList({ selectedCategory, onSearch }) {
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const BASE_URL = 'http://localhost:8080'; 
+  const BASE_URL = 'https://aconews-3o6z.onrender.com'; 
 
   useEffect(() => {
     const fetchNews = async () => {
@@ -32,7 +32,7 @@ function NewsList({ selectedCategory, onSearch }) {
   }, [page, selectedCategory, onSearch]);
 
   if (loading) {
-    return <div className="flex justify-center items-center h-full">Loading...</div>;
+    return <div className="flex justify-center text-black items-center h-full">Loading...</div>;
   }
 
   if (error) {
